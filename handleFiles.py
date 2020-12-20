@@ -65,7 +65,7 @@ def write_data(data):
     active_sheet_write_file3['I' + str(current_line_write_file)] = data["results"][0]["releaseDate"]
     active_sheet_write_file3['J' + str(current_line_write_file)] = data["results"][0]["currentVersionReleaseDate"]
     active_sheet_write_file3['K' + str(current_line_write_file)] = ', '.join(data["results"][0]["genres"])
-    active_sheet_write_file3['K' + str(current_line_write_file)] = data["results"][0]["formattedPrice"]
+    active_sheet_write_file3['L' + str(current_line_write_file)] = data["results"][0]["formattedPrice"]
 
 
 
